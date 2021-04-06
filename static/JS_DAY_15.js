@@ -42,7 +42,6 @@ document.getElementById('button').addEventListener('click', function() {
         if (text == json[i].question) {
             chat.innerHTML = "";
             typeWriter(json[i].answer);
-            console.log(i);
 
             if (i == 0) {
                 document.images[0].src = "./static/cat_icon_2.png";
