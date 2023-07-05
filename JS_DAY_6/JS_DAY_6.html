@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>콘솔에 객체 데이터 출력</title>
+		<link href="./static/JS_DAY_6.css" rel="stylesheet"/>
+        <script src="https://kit.fontawesome.com/66ae39e275.js" crossorigin="anonymous"></script>
+	</head>
+	<body class="background">
+        <div class="main_box">
+            <div class="title_box">사칙연산 프로그램</div>
+            <input class="textfield" type="text" id="num_1" placeholder="첫 번째 숫자 입력">
+            <input class="textfield" type="text" id="num_2" placeholder="두 번째 숫자 입력">
+            <div class="button" onclick="calculateNum('plus')"><i class="fas fa-mouse"></i>&nbsp;&nbsp;더하기</div>
+            <div class="button" onclick="calculateNum('min')"><i class="fas fa-mouse"></i>&nbsp;&nbsp;빼기</div>
+            <div class="button" onclick="calculateNum('mul')"><i class="fas fa-mouse"></i>&nbsp;&nbsp;곱하기</div>
+            <div class="button" onclick="calculateNum('div')"><i class="fas fa-mouse"></i>&nbsp;&nbsp;나누기</div>
+            <div id="text_box"></div>
+        </div>
+        <script src="./static/JS_DAY_6.js"></script>
+	</body>
+</html>

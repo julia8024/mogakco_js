@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Cafe24Oneprettynight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBMPlexSansKR-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 배경 색 설정 & 화면 크기 고정 */
+.background {
+    background-color: #FFFFF3;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+/* 테두리 상자 */
+.line_box {
+    border: 3px solid #566270;
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    top: 15px;
+    bottom: 15px;
+}
+/* 테두리 상자 안쪽 메인 상자 */
+.main_box {
+    position: absolute;
+    left: 60px;
+    right: 60px;
+    top: 40px;
+    bottom: 40px;
+}
+/* 제목 속성 */
+.title {
+    font-family: 'Cafe24Oneprettynight';
+    font-size: 36px;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #566270;
+}
+/* 기본 텍스트 속성 */
+.text {
+    font-family: 'IBMPlexSansKR-Light';
+    font-size: 24px;
+    padding-top: 1em;
+    line-height: 2em;
+}
+/* 부제목 속성 (강조 표시) */
+.sub_title {
+    font-family: 'Cafe24Oneprettynight';
+    font-size: 32px;
+}

@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Cafe24Oneprettynight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBMPlexSansKR-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 배경 색 설정 & 화면 크기 고정 */
+.background {
+    background-color: #FFFFF3;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 20px;
+    align-items: center;
+}
+/* 채팅 상자 */
+.chat_box {
+    border: 3px solid #566270;
+    border-radius: 10px;
+    width: 80%;
+    height: 40%;
+    margin: 2em auto;
+    display: table;
+}
+/* 채팅 상자에 나타나는 텍스트 */
+#chat_text {
+    font-family: 'Cafe24Oneprettynight';
+    font-size: 36px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.img_box {
+    height: auto;
+    width: fit-content;
+    margin: 2em auto;
+    text-align: center;
+}
+/* 텍스트 필드 상자 */
+#textfield {
+    border: 2px solid #566270;
+    border-radius: 5px;
+    width: 60%;
+    height: 2em;
+    margin: auto 20%;
+}
+/* 시키기 버튼 스타일 */
+#button {
+    border-radius: 7px;
+    width: 10em;
+    padding: 1em 2em;
+    text-align: center;
+    margin: 2em auto;
+    background-color: #566270;
+    color: #FFFFF3;
+}
+/* 시키기 버튼 호버 시 색상 변경 */
+#button:hover {
+    background-color: black;
+}
+/* 시키기 버튼 클릭 시 색상 변경 */
+#button:active {
+    background-color: #566270;
+    color: #FFFFF3;
+}

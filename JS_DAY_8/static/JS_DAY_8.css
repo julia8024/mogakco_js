@@ -1,0 +1,51 @@
+/* 폰트 - Cafe24 고운밤 */
+@font-face {
+    font-family: 'Cafe24Oneprettynight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 배경 색, 폰트 설정 및 화면 크기 지정 */
+.background {
+    font-family: 'Cafe24Oneprettynight';
+    background-color: #F0E5DE;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+/* title과 button 요소를 담고 있는 박스 */
+.main_box {
+    margin: 18em auto;
+    display: table;
+}
+/* 전광판 글자 표시 */
+#title {
+    height: 80px;
+    margin: 20px;
+    font-size: 60px;
+    color: #7C7877;
+    text-align: center;
+}
+/* click 버튼 */
+#button {
+    background-color: #ABD0CE;
+    border-radius: 3px;
+    color: #7C7877;
+    width: 10em;
+    height: fit-content;
+    margin: 10px auto;
+    padding: 8px;
+    text-align: center;
+}
+/* 버튼이 hover 상태일 때 */
+#button:hover {
+    background-color: #7C7877;
+    color:#ABD0CE;
+}
+/* 버튼을 클릭했을 때 */
+#button:active {
+    background-color: #ABD0CE;
+    color:#7C7877;
+}

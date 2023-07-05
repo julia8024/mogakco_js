@@ -1,0 +1,61 @@
+/* 폰트 - 을유1945 Regular */
+@font-face {
+    font-family: 'Eulyoo1945-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 배경 색, 폰트 설정 및 화면 크기 지정 */
+.background {
+    font-family: 'Eulyoo1945-Regular';
+    background-color: #e4e7ec;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+/* title_box와 textfield, button, text_box 요소를 담고 있는 박스 */
+.main_box {
+    margin: 10em auto;
+    display: table;
+}
+/* 제목 박스 */
+.title_box {
+    margin: auto;
+    font-size: 30px;
+    color: #263959;
+    text-align: center;
+}
+/* 숫자 입력 텍스트필드 */
+.textfield {
+    width: 15em;
+    margin: 20px 2px;
+    margin-bottom: 0px;
+    font-family: 'Eulyoo1945-Regular';
+}
+/* click 버튼 */
+.button {
+    background-color: #6d819c;
+    color: #FFFCF0;
+    width: 8em;
+    margin: 20px auto;
+    padding: 3px;
+    text-align: center;
+}
+/* 버튼이 hover 상태일 때 */
+.button:hover {
+    background-color: #263959;
+    color:#e4e7ec;
+}
+/* 버튼을 클릭했을 때 */
+.button:active {
+    background-color: #6d819c;
+    color:#FFFCF0;
+}
+#text_box {
+    margin: auto;
+    font-size: large;
+    color: #263959;
+    text-align: center;
+}

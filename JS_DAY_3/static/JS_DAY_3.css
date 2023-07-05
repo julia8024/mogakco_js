@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Cafe24Oneprettynight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 배경색, 폰트 설정 및 화면 크기 고정 */
+.background {
+    background-color: #F0E5DE;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-family: 'Cafe24Oneprettynight';
+}
+/* 테두리 점선 박스 */
+.line_box {
+    border: 2px dashed #7C7877;
+    position: absolute;
+    left: 10em;
+    right: 10em;
+    top: 5em;
+    bottom: 5em;
+    padding: 12em;
+}
+/* 텍스트 '모', '각', '코'를 포함하는 박스 */
+.text_box {
+    width: 12em;
+    height: fit-content;
+    margin: 20px auto;
+    color: #7C7877;
+}
+/* 버튼 '모', '각', '코'를 포함하는 박스 */
+.button_box {
+    width: 12em;
+    height: fit-content;
+    margin: 20px auto;
+    text-align: center;
+}
+/* 버튼 속성 */
+.button {
+    background-color: #ABD0CE;
+    border-radius: 2px;
+    padding: 5px;
+    color: #7C7877;
+}
+/* 버튼 hover 시 효과 */
+.button:hover {
+    background-color: #7C7877;
+    color: #ABD0CE;
+}
